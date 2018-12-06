@@ -1,0 +1,420 @@
+body {
+    background-color: #fafafa;
+    margin: 0px;
+}
+
+.menubar {
+  list-style-type: none;
+  background: #b4d0e2;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menubar li a {
+    float:left;
+    display: block;
+      padding: 10px 40px;
+  color: gray;
+  text-align: center;
+    padding-top: 48px;
+    padding-bottom: 49px;
+    text-decoration: none;
+}
+  
+.menubar li a:hover {
+    background: #fafafa;
+}
+
+.header {
+    background-color: #fafafa;
+    height: 225px;
+    align-content: center;
+}
+
+.mainlogo {
+    padding-top: 36px;
+    padding-bottom: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 18px;
+    margin: 0px;
+}
+
+h1 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 0px;
+    font-size: 40px;
+    color: #969696;
+}
+
+p {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0px;
+    font-size: 26px;
+    color: #969696;
+}
+
+.donatebutton {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 40px;
+    height: 150px;
+    
+}
+
+.donatebutton li {
+  display: inline-block;
+  background: #b4d0e2;
+  color: #fafafa;
+  padding: 20px 50px;
+  cursor: pointer;
+  position:relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.donatebutton li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+
+.donatebutton li:hover {
+    background-color: #969696;
+}
+
+.footer {
+    background-color: #b4d0e2;
+    height: 120px;
+    box-sizing: border-box;
+    
+}
+
+.aside1 {
+    float: left;
+    width: 30%;
+    height: 120px;
+    background-color: #b4d0e2;
+}
+
+.aside2 {
+    float: right;
+    widows: 30%;
+    height: 120px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #b4d0e2;
+    padding-right: 10px;
+}
+
+.circlelogo {
+    border-radius: 100px;
+    padding: 10px;
+}
+
+h6 {
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*tablet landscape*/
+
+@media only screen and (max-width: 800px) 
+{
+
+body {
+    background-color: #fafafa;
+}
+
+.menubar {
+  list-style-type: none;
+  background: #b4d0e2;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menubar li a {
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    color: gray;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 49px;
+}
+  
+.menubar li a:hover {
+    background: #fafafa;
+}
+
+.header {
+    background-color: #fafafa;
+    height: 225px;
+    align-content: center;
+}
+
+.mainlogo {
+    padding-top: 36px;
+    padding-bottom: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    width: 400px;
+    height: 144px;
+}
+
+.main {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 18px;
+    margin: 0px;
+}
+
+h1 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 0px;
+    font-size: 35px;
+    color: #969696;
+}
+
+p {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
+    font-size: 22px;
+    color: #969696;
+}
+
+.donatebutton {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 33px;
+    height: 150px;
+    
+}
+
+.donatebutton li {
+  display: inline-block;
+  background: #b4d0e2;
+  color: #fafafa;
+  padding: 20px 50px;
+  cursor: pointer;
+  position:relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+    
+.donatebutton li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.donatebutton li:hover {
+    background-color: #969696;
+}
+
+.footer {
+    background-color: #b4d0e2;
+    height: 120px;
+    box-sizing: border-box;
+    
+}
+
+.aside1 {
+    float: left;
+    width: 30%;
+    height: 120px;
+    background-color: #b4d0e2;
+}
+
+.aside2 {
+    float: right;
+    widows: 30%;
+    height: 120px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #b4d0e2;
+    padding-right: 10px;
+}
+
+.circlelogo {
+    border-radius: 100px;
+    padding: 10px;
+}
+
+h6 {
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+    
+}
+
+/* mobile landscape */
+
+@media only screen and (max-width: 490px) 
+{
+body {
+    background-color: #fafafa;
+}
+
+.menubar {
+  list-style-type: none;
+  background: #b4d0e2;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menubar li a {
+    float: none;
+    display: block;
+  color: gray;
+  text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.menubar li a:hover {
+    background: #fafafa;
+}
+
+.header {
+    background-color: #fafafa;
+    height: 145px;
+    align-content: center;
+}
+
+.mainlogo {
+    padding-top: 36px;
+    padding-bottom: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+    width: 300px;
+    height: 108px;
+}
+
+.main {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 18px;
+    margin: 0px;
+}
+
+h1 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 0px;
+    font-size: 30px;
+    color: #969696;
+}
+
+p {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+    font-size: 18px;
+    color: #969696;
+}
+
+.donatebutton {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.donatebutton li {
+  display: inline-block;
+  background: #b4d0e2;
+  color: #fafafa;
+  padding: 10px 40px;
+  cursor: pointer;
+  position:relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+    
+.donatebutton li a {
+  text-decoration: none;
+  color: #fafafa;
+    }
+
+.donatebutton li:hover {
+    background-color: #969696;
+}
+
+
+.footer {
+    background-color: #b4d0e2;
+    height: 100px;
+    box-sizing: border-box;
+}
+    
+.aside1 {
+    height: 100px;
+    background-color: #b4d0e2;
+    float: left;
+}
+
+.aside2 {
+    float: right;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #b4d0e2;
+    padding-right: 10px;
+}
+
+.circlelogo {
+    border-radius: 100px;
+    padding: 10px;
+    object-fit: scale-down;
+    height: 80px;
+    width: 80px;
+}
+
+h6 {
+    color: gray;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+    
+}
+

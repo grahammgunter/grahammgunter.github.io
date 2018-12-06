@@ -1,0 +1,115 @@
+body {
+   display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    grid-gap: .25vh .25vw;
+    grid-template-areas:
+        "head"
+        "slog"
+        "butt"
+        "dona"
+        "foot";
+}
+.container {
+    display: grid;
+    grid-area: head;
+    background-color: #D3F0FE;
+    justify-content: center;
+    align-items: center;
+}
+.container li {
+    display: inline-block;
+    margin: 5vh;
+    text-align: center;
+    cursor: pointer;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.container li:hover {
+    background-color: white;
+}
+.wrapper {
+    background-color: lightgray;
+        
+}
+.slogan {
+    grid-area: slog;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    background-color: lightgray;
+}
+.donate {
+    grid-area: butt;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: lightgray;
+}
+.box {
+    grid-area: dona;
+}
+.signup {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: #D3F0FE;
+}
+input {
+    min-width: 80%;
+    min-height: 4vh;
+}
+input:focus {
+    border: 2px solid;
+}
+#email { background-color: white;
+    float: left;
+    min-width: 45%;
+    margin-top: 2.5%;
+    margin-left: 27.5%;
+    background-color: #D3F0FE
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+#submit {
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: lightblue;
+}
+p {
+    margin-left: 10%;
+}
+#footer {
+    grid-area: foot;
+    background-color: #D3F0FE;
+}
+.contact {
+    float: right;
+    text-align: right;
+    margin-right: .5em;
+}
+.forimage {
+    float: left;
+    margin: 1.15em;
+}
+@media only screen and (max-width: 479px) {
+    .container li {
+        display: block;
+        margin: 0;
+        padding: .25vh; 
+        font-size: 120%;
+    }
+}
+@media only screen and (max-width: 779px) {
+    .container li {
+        display: block;
+        margin: 0;
+        padding: .25vh; 
+        font-size: 120%;
+    }
+}

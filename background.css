@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+}
+.grid-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1000vh;
+}
+.menubar {
+  grid-area: mb;
+  list-style-type: none;
+  background: #b4d0e2;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+
+.menubar li a {
+    float:left;
+    display: block;
+      padding: 10px 40px;
+  color: gray;
+  text-align: center;
+    padding-top: 48px;
+    padding-bottom: 49px;
+    text-decoration: none;
+}
+  
+.menubar li a:hover {
+    background: #fafafa;
+}
+
+.image {
+    grid-area: img;
+    align-content: center;
+    background-color: #fafafa;
+}
+.main {
+    grid-area: main;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 35px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.main2 {
+    grid-area: mn2;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Georgia", Times, serif; 
+    color: #969696;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sub {
+    grid-area: sub;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+    padding-top: 100px;
+    padding-bottom: 20px
+}
+
+.group {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.warnerimage {
+    float: left;
+}
+.MAimage {
+    float: left;
+}
+.jackimage {
+    float: left;
+}
+.nateimage {
+    float: left;
+}
+.willimage {
+    float: left;
+}
+.austinimage {
+    float: left;
+}
+.FoFimage {
+    float: left;
+    margin: 1em;
+}
+.aside1{
+    grid-area: sd1;
+    background-color: #fafafa;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+    text-align: center;
+}
+.aside2{
+    grid-area: sd2;
+    background-color: #fafafa;
+    text-align: center;
+    height: 400px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside3{
+    grid-area: sd3;
+    background-color: #fafafa;
+    text-align: center;
+    height: 410px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside4{
+    grid-area: sd4;
+    background-color: #fafafa;
+    text-align: center;
+    height: 405px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside5{
+    grid-area: sd5;
+    background-color: #fafafa;
+    text-align: center;
+    height: 400px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside6{
+    grid-area: sd6;
+    background-color: #fafafa;
+    text-align: center;
+    height: 400px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.footer {
+    grid-area: ft;
+    background-color: #b4d0e2;
+}
+.contact {
+    float: right;
+    text-align: right;
+    margin: 1em;
+}
+h2 {
+    font-size: 15px;
+    color: #969696;
+}
+.circlelogo {
+    border-radius: 100px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+      "mb mb mb mb mb mb mb mb mb mb"
+      "img img img img img img img img img img"
+      "main main main main main main main main main main"
+      "mn2 mn2 mn2 mn2 mn2 mn2 mn2 mn2 mn2 mn2"
+      "sub sub sub sub sub sub sub sub sub sub"
+      "sd1 sd1 sd1 sd1 sd1 sd2 sd2 sd2 sd2 sd2"
+      "sd3 sd3 sd3 sd3 sd3 sd4 sd4 sd4 sd4 sd4"
+      "sd5 sd5 sd5 sd5 sd5 sd6 sd6 sd6 sd6 sd6"
+      "ft ft ft ft ft ft ft ft ft ft";
+}
+
+@media only screen and (max-width: 490px) {
+.main {
+    grid-area: main;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 35px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+    
+}
+.main2 {
+    grid-area: mn2;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 15.5px;
+    font-family: "Georgia", Times, serif; 
+    color: #969696;
+}
+.sub {
+    grid-area: sub;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+    padding-bottom: 20px
+}
+.group {
+    padding: inherit;
+    height: auto;
+    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aside1{
+    grid-area: sd1;
+    background-color: #fafafa;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+    text-align: center;
+}
+.aside2{
+    grid-area: sd2;
+    background-color: #fafafa;
+    text-align: center;
+    height: 400px;
+    padding-top: 10px;
+    font-size: 13px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside3{
+    grid-area: sd3;
+    background-color: #fafafa;
+    text-align: center;
+    height: 410px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside4{
+    grid-area: sd4;
+    background-color: #fafafa;
+    text-align: center;
+    height: 405px;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside5{
+    grid-area: sd5;
+    background-color: #fafafa;
+    text-align: center;
+    height: 400px;
+    padding-top: 12px;
+    font-size: 13px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.aside6{
+    grid-area: sd6;
+    background-color: #fafafa;
+    text-align: center;
+    height: 400px;
+    padding-top: 12px;
+    font-size: 13px;
+    font-family: "Georgia", Times, serif;
+    color: #969696;
+}
+.menubar {
+  grid-area: mb;
+  list-style-type: none;
+  background: #b4d0e2;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menubar li a {
+    float: none;
+    display: block;
+  color: gray;
+  text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.menubar li a:hover {
+    background: #fafafa;
+}
+    
+.footer {
+    grid-area: ft;
+    background-color: #b4d0e2;
+}
+.contact {
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+h2 {
+    font-size: 12px
+}
+.FoFimage {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0
+    }
+.wrapper {  
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+      "mb mb mb mb mb mb mb mb mb"
+      "img img img img img img img img img"
+      "main main main main main main main main main"
+      "mn2 mn2 mn2 mn2 mn2 mn2 mn2 mn2 mn2"
+      "sub sub sub sub sub sub sub sub sub"
+      "sd1 sd1 sd1 sd1 sd1 sd1 sd1 sd1 sd1"
+      "sd2 sd2 sd2 sd2 sd2 sd2 sd2 sd2 sd2"
+      "sd3 sd3 sd3 sd3 sd3 sd3 sd3 sd3 sd3"
+      "sd4 sd4 sd4 sd4 sd4 sd4 sd4 sd4 sd4"
+      "sd5 sd5 sd5 sd5 sd5 sd5 sd5 sd5 sd5"
+      "sd6 sd6 sd6 sd6 sd6 sd6 sd6 sd6 sd6"
+      "ft ft ft ft   ft   ft   ft   ft   ft";
+}
+
